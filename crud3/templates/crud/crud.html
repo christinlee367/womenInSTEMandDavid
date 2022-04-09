@@ -43,7 +43,8 @@
     </script>
 
 <!-- CONTENT (in <body>), content for this page -->
-
+{% block body %}
+    <a href={{url_for('crud.crud_login')}}>Log Out</a>
     <div class="container py-4 text-light bg-dark" >
         <header class="pb-3 mb-4 border-bottom">
             <div class="d-flex align-items-center text-light text-decoration-none">
