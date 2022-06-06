@@ -30,7 +30,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <a style= "color: #d7b321;" class="nav-link" href={{url_for('notes.notes')}}>Upload Photos</a>
-                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('upload.upload')}}>Upload</a>
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('uploadCL.uploadCL')}}>Upload</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -64,8 +64,9 @@
                     Awards
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <a style= "color: #d7b321;" class="dropdown-item" href={{url_for('wallOfFame')}}>Wall Of Fame</a>
+{#                    <a style= "color: #d7b321;" class="dropdown-item" href={{url_for('wallOfFame')}}>Wall Of Fame</a>#}
                     <a style= "color: #d7b321;" class="dropdown-item" href={{url_for('alumni')}}>NightHawks at the Next Level</a>
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('uploadCL.uploadCL')}}>UploadCL</a>
                 </div>
             </li>
 
